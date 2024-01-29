@@ -1,0 +1,41 @@
+.guide_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.guide_details {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.contact {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 6px;
+  color: var(--textColor);
+  border: 1px solid var(--textColor);
+  padding: 5px 12px;
+  font-family: "Signika", sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contact:hover {
+  background-color: var(--textColor);
+  color: #ffff;
+}
+
+.guide_details img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}

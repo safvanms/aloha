@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --textColor: #008080;
+  --bg: #e6f2f2;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+* {
+  scrollbar-color: transparent transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+.categories_and_guides {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px 120px;
+  background-color: var(--bg);
+  font-family: "IBM Plex Mono", monospace;
+  padding-bottom: 40px;
+}
+
+.categories_and_guides h3 {
+  margin: 30px 0 15px 5px;
+  font-size: 15px;
+}
+
+.categories_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.guide_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+@media (max-width: 850px) {
+  .categories_and_guides {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .categories_sec,
+  .guide_sec {
+    width: 100%;
+  }
+}

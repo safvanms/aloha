@@ -1,0 +1,29 @@
+.category {
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffff;
+  transition: 0.2s ease-in-out;
+}
+
+.category:hover {
+  background-color: #7d8a8c90;
+}
+
+.icon {
+  color: var(--textColor);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:hover {
+  background-color: #23424890;
+  color: #ffff;
+}
