@@ -4,3 +4,5 @@
 2. go to the directory 
 3. npm install
 4. npm start.
+
+Deployment link : https://aloha-task.netlify.app/
