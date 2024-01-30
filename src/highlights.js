@@ -1,13 +1,14 @@
-import Surfing from "../../app/src/assets/images/Surfing.png";
-import Hula from "../../app/src/assets/images/Hula.png";
-import Volcanos from "../../app/src/assets/images/vulcanos.png";
+import SurfingImage from "./assets/images/Surfing.png";
+import Hula from "./assets/images/Hula.png";
+import Volcanos from "./assets/images/vulcanos.png";
+
 
 const highlights = [
   {
     id: 1,
     name: "Surfing",
     description: "Best Hawaiian islands for surfing.",
-    image: Surfing,
+    image: SurfingImage ,
   },
   {
     id: 2,
